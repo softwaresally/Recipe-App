@@ -21,7 +21,7 @@ function App() {
     const updatedRecipeList =
       recipes.filter((recipe, index) => {
         return (index !== indexToDelete
-        })
+        )})
         setRecipes(updatedRecipeList)
   };
   
